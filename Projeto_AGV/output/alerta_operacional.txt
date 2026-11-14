@@ -1,0 +1,41 @@
+[SIMULACAO] ALERTA OPERACIONAL — AGV Tracking Intelligence
+Data de referencia do desafio: 24/09/2026 18:00
+Pedidos que exigem acao: 8 | Atrasados: 5 | Em risco: 3
+
+[ALTA] PED1019 | PARCEIRO_C | ATRASADO_EM_ABERTO
+  Status: OCO | Limite: 16/09/2026 14:00
+  Ocorrencia: endereço não localizado, número inexistente (ENDERECO)
+  Acao sugerida: Validar endereco com o cliente e alinhar nova tentativa de entrega.
+
+[ALTA] PED1008 | PARCEIRO_C | ATRASADO_EM_ABERTO
+  Status: SEM_RASTREIO | Limite: 16/09/2026 16:00
+  Acao sugerida: Solicitar rastreamento e localizar pedido junto a transportadora/origem.
+
+[ALTA] PED1004 | TRANSP_B | ATRASADO_EM_ABERTO
+  Status: OCO | Limite: 21/09/2026 15:00
+  Ocorrencia: cliente ausente, ninguém atendeu (AUSENCIA)
+  Acao sugerida: Contatar destinatario e transportadora para verificar nova tentativa.
+
+[ALTA] PED1059 | PARCEIRO_C | ATRASADO_EM_ABERTO
+  Status: TRF | Limite: 23/09/2026 11:00
+  Acao sugerida: Solicitar a transportadora localizacao e nova previsao de entrega.
+
+[ALTA] PED1022 | PARCEIRO_C | ATRASADO_EM_ABERTO
+  Status: OCO | Limite: 24/09/2026 16:00
+  Ocorrencia: caixa amassada, produto avariado (AVARIA)
+  Acao sugerida: Acionar transportadora e qualidade para apurar avaria e orientar tratativa.
+
+[ATENCAO] PED1017 | TRANSP_A | EM_RISCO
+  Status: TRF | Limite: 25/09/2026 13:00
+  Acao sugerida: Solicitar a transportadora localizacao e nova previsao de entrega.
+
+[ATENCAO] PED1034 | TRANSP_B | EM_RISCO
+  Status: SEM_RASTREIO | Limite: 25/09/2026 14:00
+  Acao sugerida: Solicitar rastreamento e localizar pedido junto a transportadora/origem.
+
+[ATENCAO] PED1038 | TRANSP_A | EM_RISCO
+  Status: TRF | Limite: 25/09/2026 16:00
+  Acao sugerida: Solicitar a transportadora localizacao e nova previsao de entrega.
+
+Observacao: alerta gerado localmente; nenhum e-mail, mensagem ou API foi acionado.
+SLA e prioridades definidos por premissas do desafio, sujeitos a validacao operacional.

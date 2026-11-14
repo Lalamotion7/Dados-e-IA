@@ -1,0 +1,6 @@
+codigo;significado;ordem_esperada
+COL;Coleta realizada;1
+TRF;Em transferência;2
+ROT;Saiu para entrega;3
+OCO;Ocorrência na entrega;4
+ENT;Entrega realizada;5

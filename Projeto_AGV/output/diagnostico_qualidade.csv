@@ -1,0 +1,53 @@
+﻿problema;tipo_registro;id_pedido;id_evento;valor_original;tratamento_proposto
+codigo_nao_padronizado;evento;PED1045;169;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1024;94;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1037;139;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1043;161;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1009;34;ENTREGUE;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1013;52;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1044;165;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1023;90;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1056;210;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1039;145;ENTREGUE;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1053;200;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1015;60;ENTREGUE;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1058;219;ENTREGUE;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1028;109;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1040;149;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1005;22;ENTREGUE;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1041;153;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1042;157;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+codigo_nao_padronizado;evento;PED1018;70;ent;Normalizar maiusculas e mapear ENTREGUE para ENT
+data_formato_brasileiro;evento;PED1056;208;14/09/2026 22:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1059;221;22/09/2026 16:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1043;159;18/09/2026 22:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1025;96;15/09/2026 19:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1018;68;10/09/2026 08:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1035;129;11/09/2026 22:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1049;181;11/09/2026 20:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1051;190;09/09/2026 20:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1015;58;15/09/2026 08:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1009;32;15/09/2026 08:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1027;103;15/09/2026 09:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1028;107;15/09/2026 17:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1032;121;17/09/2026 21:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1052;194;16/09/2026 19:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1057;212;12/09/2026 11:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1046;171;10/09/2026 22:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1053;198;18/09/2026 01:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1016;62;15/09/2026 09:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1036;133;15/09/2026 19:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1023;88;15/09/2026 12:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1022;84;15/09/2026 21:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1019;72;11/09/2026 15:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1045;167;16/09/2026 12:00;Converter para timestamp padrao ISO
+data_formato_brasileiro;evento;PED1007;28;17/09/2026 06:00;Converter para timestamp padrao ISO
+data_hora_ausente_ou_invalida;evento;PED1020;232;;Retirar do ordenamento temporal e reportar
+evento_duplicado;evento;PED1058;226;;Preservar o evento de menor ID e isolar as repeticoes
+evento_duplicado;evento;PED1028;227;;Preservar o evento de menor ID e isolar as repeticoes
+evento_duplicado;evento;PED1057;228;;Preservar o evento de menor ID e isolar as repeticoes
+evento_duplicado;evento;PED1033;229;;Preservar o evento de menor ID e isolar as repeticoes
+evento_sem_pedido;evento;PED9999;230;;Colocar em quarentena sem inventar pedido
+pedido_sem_eventos;pedido;PED1008;;;Manter o pedido na consolidacao e sinalizar ausencia
+pedido_sem_eventos;pedido;PED1034;;;Manter o pedido na consolidacao e sinalizar ausencia
+evento_anterior_coleta;evento;PED1012;231;2026-09-01 09:00:00;"Desconsiderar como evidência valida de status/SLA; registrar anomalia"
